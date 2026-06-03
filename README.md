@@ -6,12 +6,12 @@ A 1-hour hands-on workshop covering the theory and practice of uncertainty quant
 
 ## 📚 Notebook Overview
 
-| # | Notebook | Topics | Runtime |
-|---|----------|--------|---------|
-| 01 | **Regression UQ** | Gaussian NLL, Calibration, MC Dropout, Quantile Regression, Ensembles, SNGP | ~20 min |
-| 02 | **Classification UQ** | Softmax overconfidence, Temperature Scaling, MC Dropout, SNGP, OOD Detection | ~20 min |
-| 03 | **EO / EuroSAT UQ** | Real CNN, Synthetic clouds, Aleatoric uncertainty from distribution shift | ~25 min |
-| 04 | **Lightning-UQ-Box** | Automatic pipelines, copy-paste ready implementations | ~15 min |
+| # | Notebook | Topics | Runtime | Link to Colab |
+|---|----------|--------|---------| -------------|
+| 01 | **Regression UQ** | Gaussian NLL, Calibration, MC Dropout, Quantile Regression, Ensembles, SNGP | ~20 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/01_regression_uq.ipynb |
+| 02 | **Classification UQ** | Softmax overconfidence, Temperature Scaling, MC Dropout, SNGP, OOD Detection | ~20 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/02_mnist_classification_uq.ipynb |
+| 03 | **EO / EuroSAT UQ** | Real CNN, Synthetic clouds, Aleatoric uncertainty from distribution shift | ~25 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/03_eo_eurosat_uq.ipynb |
+| 04 | **Lightning-UQ-Box** | Automatic pipelines, copy-paste ready implementations | ~15 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/04_lightning_uq_box.ipynb |
 
 ---
 
@@ -47,7 +47,15 @@ A 1-hour hands-on workshop covering the theory and practice of uncertainty quant
 | SNGP | ✅ | ✅ | Med | Spectral norm + GP head |
 | Lightning-UQ-Box | ✅ | ✅ | Auto | All-in-one framework |
 
----
+### Check out: Lightning-UQ-Box
+
+A new open-source library for easy UQ in PyTorch Lightning, with copy-paste ready implementations of all methods covered in this workshop and more!
+
+- Easy-to-use API for training and evaluating UQ models
+- Supports regression, classification, and segmentation tasks
+- Built on top of PyTorch Lightning for scalability and flexibility
+
+https://github.com/lightning-uq-box/lightning-uq-box
 
 ## ⚙️ Setup
 
