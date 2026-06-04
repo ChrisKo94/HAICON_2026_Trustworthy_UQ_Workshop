@@ -1,6 +1,6 @@
 # 🔬 Uncertainty Quantification for Deep Learning — Practical Workshop
 
-A 1-hour hands-on workshop covering the theory and practice of uncertainty quantification (UQ) in deep learning, from toy regression examples to real-world Earth Observation applications.
+A 1-hour hands-on workshop covering the theory and practice of uncertainty quantification (UQ) in deep learning, from toy regression examples to real-world Earth Observation applications. Link to Github repo: https://github.com/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop
 
 ---
 
@@ -91,13 +91,10 @@ uq-workshop/
 │   ├── 01_regression_uq.ipynb        # Regression UQ from scratch
 │   ├── 02_classification_uq.ipynb    # Classification UQ + OOD
 │   ├── 03_eo_eurosat_uq.ipynb        # EuroSAT + synthetic clouds
-│   └── 04_lightning_uq_box.ipynb     # lightning-uq-box framework
-├── utils/
-│   ├── plotting.py                   # Shared plotting utilities
-│   └── calibration.py                # Calibration metrics
-├── solutions/                        # Completed notebooks (instructors)
-├── figures/                          # Generated figures
+│   ├── 04_lightning_uq_box.ipynb     # lightning-uq-box framework
+│   └── data/                         # Downloaded datasets (e.g. EuroSAT)
 ├── environment.yml
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
