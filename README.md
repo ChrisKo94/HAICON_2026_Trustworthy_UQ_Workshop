@@ -9,7 +9,7 @@ A 1-hour hands-on workshop covering the theory and practice of uncertainty quant
 | # | Notebook | Topics | Runtime | Link to Colab |
 |---|----------|--------|---------| -------------|
 | 01 | **Regression UQ** | Gaussian NLL, Calibration, MC Dropout, Quantile Regression, Ensembles, SNGP | ~20 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/01_regression_uq.ipynb |
-| 02 | **Classification UQ** | Softmax overconfidence, Temperature Scaling, MC Dropout, SNGP, OOD Detection | ~20 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/02_mnist_classification_uq.ipynb |
+| 02 | **Classification UQ** | Softmax overconfidence, Temperature Scaling, MC Dropout, OOD Detection | ~20 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/02_mnist_classification_uq.ipynb |
 | 03 | **EO / EuroSAT UQ** | Real CNN, Synthetic clouds, Aleatoric uncertainty from distribution shift | ~25 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/03_eo_eurosat_uq.ipynb |
 | 04 | **Lightning-UQ-Box** | Automatic pipelines, copy-paste ready implementations | ~15 min | https://colab.research.google.com/github/ChrisKo94/HAICON_2026_Trustworthy_UQ_Workshop/blob/main/notebooks/04_lightning_uq_box.ipynb |
 
